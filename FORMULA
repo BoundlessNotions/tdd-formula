@@ -1,0 +1,9 @@
+name: tdd
+os: RedHat, CentOS, Ubuntu, Debian
+os_family: RedHat, Debian
+version: 201707
+release: 1
+summary: A formula to demonstrate how to build servers in a test driven manner
+description: A formula to demonstrate how to build servers in a test driven manner
+top_level_dir: tdd
+recommended: 

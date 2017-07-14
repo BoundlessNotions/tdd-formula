@@ -1,0 +1,14 @@
+{% set tdd = salt.grains.filter_by({
+    'default': {
+        'pkg': 'tdd',
+        'service': 'tdd',
+        'conf_file': '/etc/tdd/tdd.conf',
+        'config': {
+            'key': 'value',
+        },
+    },
+    'Debian': {
+    },
+    'RedHat': {
+    },
+}, grain='os_family', merge=salt.pillar.get('tdd:overrides), base='default') %}

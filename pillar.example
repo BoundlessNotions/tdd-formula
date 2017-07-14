@@ -1,0 +1,6 @@
+tdd:
+  lookup:
+    pkg: mytdd
+    conf_file: /usr/local/etc/tdd/tdd.conf
+  config:
+    key: othervalue
